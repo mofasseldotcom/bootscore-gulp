@@ -2,26 +2,26 @@
 
 Custom gulp packages for quick WordPress theme development.
 
-Required gulp plugin list with installation command:
+# Required gulp plugin list with installation command:
 
 # gulp
-npm install gulp
+    sudo npm install --save-dev gulp
 # gulp-plumber
 npm install --save-dev gulp-plumber
 
 # gulp-ruby-sass
-npm install --save-dev gulp-ruby-sass
+    sudo npm install --save-dev gulp-ruby-sass
 
 # gulp-autoprefixer
-npm install --save-dev gulp-autoprefixer
+    sudo npm install --save-dev gulp-autoprefixer
 
 # gulp-uglify
-npm install --save-dev gulp-uglify
+    sudo npm install --save-dev gulp-uglify
 
 # gulp-livereload
-npm install --save-dev gulp-livereload
+    sudo npm install --save-dev gulp-livereload
 
-NB: use "sudo" command if any issue arises.
+NB: sudo = super user do, permison required.
 
 # Additional gulp basic:
 
@@ -38,7 +38,8 @@ NB: use "sudo" command if any issue arises.
     sudo npm install -g gulp
 
 #Step 4: Create project folder say gulp-project and create a json file named package.json
-
+    touch package.json
+    // just put {} inside newly created file
 #Step 5: install and save gulp for your local project devDependencies
     npm install --save-dev gulp
 
@@ -52,7 +53,7 @@ NB: use "sudo" command if any issue arises.
 
 #Step 7: Run gulp: though now output will be nothing
 
-  gulp
+    gulp
 
 #Step 8: Adding plugin with gulp. http://gulpjs.com/plugins/
     npm install --save-dev plugin-name
@@ -77,6 +78,6 @@ NB: use "sudo" command if any issue arises.
         .pipe(gulp.dest('result'));
     });
 
-gulp.task('default', function() {
-  // place code for your default task here
-}); 
+    gulp.task('default', function() {
+      // place code for your default task here
+    }); 
