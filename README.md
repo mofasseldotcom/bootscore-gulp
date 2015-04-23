@@ -7,7 +7,7 @@ Custom gulp packages for quick WordPress theme development.
 # gulp
     sudo npm install --save-dev gulp
 # gulp-plumber
-npm install --save-dev gulp-plumber
+    npm install --save-dev gulp-plumber
 
 # gulp-ruby-sass
     sudo npm install --save-dev gulp-ruby-sass
@@ -21,7 +21,7 @@ npm install --save-dev gulp-plumber
 # gulp-livereload
     sudo npm install --save-dev gulp-livereload
 
-NB: sudo = super user do, permison required.
+NB: sudo = super user do, permision required.
 
 # Additional gulp basic:
 
