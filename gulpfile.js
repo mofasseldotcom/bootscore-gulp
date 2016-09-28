@@ -18,7 +18,7 @@ gulp.task('styles', function(){
 			//style: 'compact',
 			//style: 'compressed'		
 		}))
-		.pipe(gulp.dest('../theme-name/'))
+		.pipe(gulp.dest('../'))
 		.pipe(livereload({ start: true }));
 });
 
@@ -27,7 +27,7 @@ gulp.task('scripts', function(){
 	gulp.src('js/*.js')
 		.pipe(plumber())
 		.pipe(uglify())
-		.pipe(gulp.dest('../theme-name/js/'))
+		.pipe(gulp.dest('../js/'))
 		.pipe(livereload({ start: true }));
 });
 
