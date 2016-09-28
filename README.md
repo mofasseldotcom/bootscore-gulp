@@ -14,7 +14,7 @@ Custom gulp packages for quick WordPress theme development.
     Visit above link to check official gulp documentation 
 
 # Adding plugin with gulp. http://gulpjs.com/plugins/
-    npm install --save-dev plugin-name
+    sudo npm install --save-dev plugin-name
 
 # Few frequently needed plugin list 
 
@@ -25,4 +25,4 @@ Custom gulp packages for quick WordPress theme development.
     gulp-livereload
 
 
-NB: sudo = super user do, permision required. You may need to delete README.md file to avoid any issue, if you want to add additional plugin with the repo.
+NB: sudo = super user do, permision required. You may need to delete README.md file to avoid any issue while working with this repo locally, if you want to add additional plugin with the repo.
