@@ -1,7 +1,7 @@
-## bootscore-gulp
+### bootscore-gulp
 
 # Download using terminal and start working locally
-    git clone https://github.com/WebGuyMofassel/gulp-wp.git
+    git clone https://github.com/WebGuyMofassel/bootscore-wp.git
 
 # Change Directory to bootscore-gulp and remove README.md FILE
     cd bootscore-wp
