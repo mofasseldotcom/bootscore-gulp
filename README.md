@@ -10,8 +10,8 @@ Custom gulp packages for quick WordPress theme development.
     sudo apt-get install npm // install npm (node package manager)
     sudo npm install npm -g // to update to latest
 
-# gulp basic installation guidelines
-    Visit this link http://goo.gl/WsS4XW
+# gulp basic installation guidelines http://goo.gl/WsS4XW
+    Visit above link to check official gulp documentation 
 
 # Adding plugin with gulp. http://gulpjs.com/plugins/
     npm install --save-dev plugin-name
