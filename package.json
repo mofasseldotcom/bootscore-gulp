@@ -1,4 +1,10 @@
 {
+  "name": "bootscore-gulp",
+  "version": "1.0.0",
+  "description": "A custom gulp build system for WordPress development",
+  "homepage": "http://bootscore.com",
+  "repository": "https://github.com/WebGuyMofassel/bootscore-gulp",
+  "author": "Web Guy Mofassel <contact@mofassel.me> (http://mofassel.me)",
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^2.1.0",

@@ -1,6 +1,16 @@
-# gulp-wp
+## bootscore-gulp
 
-Custom gulp packages for quick WordPress theme development.
+# Download using terminal and start working locally
+    git clone https://github.com/WebGuyMofassel/gulp-wp.git
+
+# Change Directory to bootscore-gulp and remove README.md FILE
+    cd bootscore-wp
+    sudo npm install
+
+# your local gulp build is now ready. Now start using command 
+    gulp
+
+## Additional Basics for newbie:
 
 # Gulp has some dependancies in order to function properly
     sudo apt-get install nodejs-legacy // Recommended! Installs node and nodejs both support
