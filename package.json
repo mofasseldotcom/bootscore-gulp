@@ -6,11 +6,11 @@
   "repository": "https://github.com/WebGuyMofassel/bootscore-gulp",
   "author": "Web Guy Mofassel <contact@mofassel.me> (http://mofassel.me)",
   "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-autoprefixer": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
     "gulp-livereload": "^3.8.0",
-    "gulp-plumber": "^1.0.0",
-    "gulp-ruby-sass": "^1.0.1",
-    "gulp-uglify": "^1.2.0"
+    "gulp-plumber": "^1.1.0",
+    "gulp-ruby-sass": "^2.1.0",
+    "gulp-uglify": "^2.0.0"
   }
 }
