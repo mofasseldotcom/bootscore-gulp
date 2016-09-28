@@ -5,7 +5,7 @@ Custom gulp packages for quick WordPress theme development.
 # Gulp has some dependancies in order to function properly
     sudo apt-get install nodejs-legacy // Recommended! Installs node and nodejs both support
 
-    sudo apt-get install nodejs // Alternative! it will only install support
+    sudo apt-get install nodejs // Alternative! it will only install nodejs support
 
     sudo apt-get install npm // install npm (node package manager)
     sudo npm install npm -g // to update to latest
