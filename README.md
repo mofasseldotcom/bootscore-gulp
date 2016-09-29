@@ -1,10 +1,10 @@
 ### bootscore-gulp
 
 # Download using terminal and start working locally
-    git clone https://github.com/WebGuyMofassel/bootscore-wp.git
+    git clone https://github.com/WebGuyMofassel/bootscore-gulp.git
 
 # Change Directory to bootscore-gulp and remove README.md FILE
-    cd bootscore-wp
+    cd bootscore-gulp
     sudo npm install
 
 # your local gulp build is now ready. Now start using command 
@@ -28,7 +28,7 @@
 
 # Few frequently needed plugin list 
 
-    gulp-ruby-sass 
+    gulp-sass 
     gulp-autoprefixer
     gulp-plumber
     gulp-uglify

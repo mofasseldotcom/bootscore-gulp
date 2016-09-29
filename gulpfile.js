@@ -2,11 +2,10 @@
 var gulp 		= require('gulp'),
 	plumber		= require('gulp-plumber'),
 	prefix 		= require('gulp-autoprefixer'),
-	sass 		= require('gulp-ruby-sass'),
+	sass 		= require('gulp-sass'),
 	uglify 		= require('gulp-uglify'),
 	livereload 	= require('gulp-livereload');
 	// livereload addon for firefox/chrome needed to work. 
-
 
 //To minify css styles
 gulp.task('styles', function(){
@@ -40,3 +39,4 @@ gulp.task('watch', function(){
 
 //To set deafult task for gulp
 gulp.task('default', ['styles','scripts','watch']);
+// gulp.task('default', ['scripts','watch']);
