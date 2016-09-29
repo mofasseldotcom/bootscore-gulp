@@ -28,11 +28,14 @@
 
 # Few frequently needed plugin list 
 
-    gulp-sass 
+     
     gulp-autoprefixer
-    gulp-plumber
-    gulp-uglify
+    gulp-concat
     gulp-livereload
+    gulp-plumber
+    gulp-rename
+    gulp-sass
+    gulp-uglify    
 
 
 NB: sudo = super user do, permision required. You may need to delete README.md file to avoid any issue while working with this repo locally, if you want to add additional plugin with the repo.
